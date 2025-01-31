@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #26282A;
+}
+
+
+.tutorial {
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title .icon {
+  margin-left: 40px;
+}
+
+.hero-body {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  margin-bottom: 70px;
+  background-image: url("./img/netflix.jpg");
+  background-color: rgba(0,0,0,0.4);
+  background-blend-mode: darken;
+}
+
+.hero .title{
+  color:#E50914;
+  font-family:nosifer;
+  font-size: 400%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+label{
+  color: white;
+  font-size: 30px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  color: black;
+}
+
+#left-summary,
+#right-summary{
+  font-size: 120%;
+  color:white;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+div.tutorial{
+  color: white;
+  background-color: #E50914;
+}
